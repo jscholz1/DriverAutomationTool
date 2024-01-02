@@ -16398,7 +16398,7 @@ AABJRU5ErkJgggs='))
 		
 		# Validate Download Path
 		if ([string]::IsNullOrEmpty($DownloadPathTextBox.Text)) {
-			global:Write-ErrorOutput -Message "[Error] - Download path not specified on ConfigMgr Settings tab" -Severity 3
+			global:Write-ErrorOutput -Message "[Error] - Download path not specified on Common Settings tab" -Severity 3
 			$ValidationErrors++
 		}
 		
